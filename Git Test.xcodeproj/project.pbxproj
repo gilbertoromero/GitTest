@@ -54,8 +54,8 @@
 		4130498319CA0E5F00394562 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4130498519CA0E5F00394562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4130498719CA0E5F00394562 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		4130499119CA129900394562 /* GTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTest.h; sourceTree = "<group>"; };
-		4130499219CA129900394562 /* GTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTest.m; sourceTree = "<group>"; };
+		4130499119CA129900394562 /* GTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTest.h; path = ../GTest.h; sourceTree = "<group>"; };
+		4130499219CA129900394562 /* GTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTest.m; path = ../GTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		4130495019CA0E5F00394562 = {
 			isa = PBXGroup;
 			children = (
-				4130499119CA129900394562 /* GTest.h */,
-				4130499219CA129900394562 /* GTest.m */,
 				4130496219CA0E5F00394562 /* Git Test */,
 				4130498119CA0E5F00394562 /* Git TestTests */,
 				4130495B19CA0E5F00394562 /* Frameworks */,
@@ -117,6 +115,8 @@
 		4130496219CA0E5F00394562 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				4130499119CA129900394562 /* GTest.h */,
+				4130499219CA129900394562 /* GTest.m */,
 				4130496B19CA0E5F00394562 /* GAppDelegate.h */,
 				4130496C19CA0E5F00394562 /* GAppDelegate.m */,
 				4130496E19CA0E5F00394562 /* Main.storyboard */,
